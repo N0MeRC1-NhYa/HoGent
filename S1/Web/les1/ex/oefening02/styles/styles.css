@@ -1,0 +1,69 @@
+@font-face {
+    font-family: squared;
+    src: url(../fonts/SimplySquare.ttf);
+}
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:100%;
+}
+body{
+    margin:0;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 15em;
+    margin:0;
+    padding-top:10%;
+    background: url('../img/background.jpg') no-repeat center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:squared;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+#window{
+    width: 50%;
+    height:90%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+button{
+    width:20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 25em;
+    background-color: blue;
+    border: none;
+    animation: rush 1s ease-out infinite alternate;
+    /* animation-play-state: paused; */
+}
+
+button:hover{
+    animation-play-state: paused;
+}
+@keyframes rush {
+    from{
+        transform: scale(70%);
+    } to {
+        transform:scale(120%);
+    }
+}
+
+h3{
+    font-size: 0.85em;
+    color:aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+}
