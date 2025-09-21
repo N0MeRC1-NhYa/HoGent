@@ -1,0 +1,18 @@
+p
+{
+    color: blueviolet;
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+}
+h1 {
+    font-size: 3rem;
+}
+.coral{
+    background-color: coral;
+}
+#inspringing{
+    margin-left: 40px;
+}
