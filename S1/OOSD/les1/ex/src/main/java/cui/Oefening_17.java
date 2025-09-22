@@ -11,7 +11,7 @@ public class Oefening_17 {
         int korting = sc.nextInt();
         System.out.printf("%f € met %d%% korting is: %f%n",
                 kommagetal, korting, kommagetal*(100 - korting) / 100);
-        System.out.printf("%.2f € met %d%% korting is: %.2f%n",
+        System.out.printf("%.2f € met %d%% korting is: %.2f%ngit ",
                 kommagetal, korting, kommagetal*(100 - korting) / 100);
     }
 }
