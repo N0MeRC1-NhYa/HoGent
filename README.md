@@ -1,6 +1,12 @@
 # HoGent
-Repository used for homeworks and all ongoing tasks related to education in HoGent
-Github Pages:
-* ex1
-  * [oefening 1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les1/ex/oefening01/index.html)
-  * [oefening 2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les1/ex/oefening02/index.html) 
+Repository used for homeworks and all ongoing tasks related to education in HoGent in the field Applied Informatica (Toegepaste Informatica)  
+
+
+* Semester 1
+  * Computer Systems
+  * Cybersecurity
+  * Databases
+  * [IT Fundamentals](https://n0merc1-nhya.github.io/HoGent/S1/IT_Fundamentals/)
+  * OOSD
+  * Software Analysis
+  * [Web](https://n0merc1-nhya.github.io/HoGent/S1/Web)
