@@ -1,7 +1,8 @@
 package domein;
 
 public class Tankstation {
-	private int[] pompen;
+
+    private int[] pompen;
 
 	public Tankstation() {
 		pompen = new int[]{100, 100, 100, 100, 100};
