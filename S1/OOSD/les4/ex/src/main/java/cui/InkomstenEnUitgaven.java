@@ -2,7 +2,6 @@ package cui;
 
 import java.util.Scanner;
 import java.util.Stack;
-import java.util.stream.DoubleStream;
 
 public class InkomstenEnUitgaven {
     public static void main(String[] args) {

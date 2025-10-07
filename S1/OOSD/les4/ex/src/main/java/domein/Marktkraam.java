@@ -2,8 +2,8 @@ package domein;
 
 public class Marktkraam {
 
-    protected String kraamhouder;
-    protected int breedte;
+    private String kraamhouder;
+    private int breedte;
     private double inkomsten;
 
     public Marktkraam(String kraamhouder, int breedte){
