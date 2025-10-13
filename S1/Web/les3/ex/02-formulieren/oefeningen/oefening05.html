@@ -9,7 +9,23 @@
 
 <body>
     <h1>Poll.</h1>
-    
+    <form action="mailto:veyeho1211@bllibl.com?subject=Poll" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Ik volg Web Development I</legend>
+            <input type="radio" value="C08301000" name="les" required> Op de campus van 8:30-10:00 <br>
+            <input type="radio" value="C11001230" name="les"> Op de campus van 8:30-10:00 <br>
+            <input type="radio" value="O11001230" name="les"> Online van 11:00-12:30 <br>
+        </fieldset>
+        <fieldset>
+            <legend>Examen Web Development I</legend>
+            <input type="radio" value="Copl" name="ex" required> Op de campus op laptop <br>
+            <input type="radio" value="FE-schrif" name="ex"> In flanders Expo - schriftelijk <br>
+            <input type="radio" value="Oopl" name="ex"> Online op laptop <br>
+            <input type="radio" value="Om" name="ex"> Online mondeling <br>
+        </fieldset>
+        <input type="submit" value="Verstuur">
+        <input type="reset" value="Clear">
+    </form>
 </body>
 
 </html>

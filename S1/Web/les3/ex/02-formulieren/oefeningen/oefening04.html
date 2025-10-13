@@ -9,7 +9,34 @@
 
 <body>
     <h1>Registreer.</h1>
-    
+    <form action="mailto:veyeho1211@bllibl.com?subject=Registreer" method="post" enctype="text/plain">
+        <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" required>
+        </p>
+        <p>
+            <label for="voornaam">Voornaam</label>
+            <input type="text" naam="voornaam" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+        </p>
+        <p>
+            <label for="geboortedatum">Geboortedatum:</label>
+            <input type="date" name="geboortedatum">
+        </p>
+        <p>
+            <label for="nieuwsbrief">Abonneren op nieuwsbrief:</label>
+            <input type="checkbox" name="nieuwsbrief">
+        </p>
+        <p>
+            <label for="privacy">Ik ga akkord met het privacybeleid:</label>
+            <input type="checkbox" name="privacy" required>
+        </p>
+        <input type="submit" value="Registreer">
+        <input type="reset" value="Clear">
+    </form>
 </body>
 
 </html>

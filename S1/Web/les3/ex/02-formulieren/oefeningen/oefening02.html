@@ -9,6 +9,32 @@
 
 <body>
     <h1>Maak de juiste keuze.</h1>
+    <form action="mailto:veyeho1211@bllibl.com?subject=Keuzes" method="post" enctype="text/plain">
+        
+        <p>
+            <label for="serie">Kies je favoriete serie:</label>
+            <select name="serie">
+                <option value="GoT" selected>Game of Thrones</option>
+                <option value="PB">Peaky Blinders</option>
+                <option value="LCdP">La Casa de Papel</option>
+                <option value="B">Baby</option>
+                <option value="V">Vikings</option>
+                <option value="N">Norsemen</option>
+            </select>
+        </p>
+        <p>
+            <label for="lector">Kies je favoriete lector:</label>
+            <input type="text" list="lectoren" name="lector">
+            <datalist id="lectoren">
+                <option value="Karine Samyn"></option>
+                <option value="Stefaan Samyn"></option>
+                <option value="Patrick Lauwaerts"></option>
+                <option value="Lotte Vansteenberghe"></option>
+                <option value="Stefaan De Cock"></option>
+            </datalist>
+        </p>
+        <input type="submit" value="Maak je keuze">
+    </form>
     
 </body>
 
