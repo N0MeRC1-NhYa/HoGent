@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -38,13 +39,97 @@
       <p>
         Wij zijn op het bovenstaande adres bereikbaar op de onderstaande ogenblikken
       </p>
-      
+      <table>
+        <colgroup>
+          <col class="col-header">
+          <col span="2">
+        </colgroup>
+        <thead>
+          <th></th>
+          <th>Voormiddag</th>
+          <th>Namiddag</th>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Maandag</th>
+            <td colspan="2">10h00 - 15h00</td>
+          </tr>
+          <tr>
+            <th>Dinsdag</th>
+            <td>10h00 - 12h00</td>
+            <td>Gesloten</td>
+          </tr>
+          <tr>
+            <th>Woensdag</th>
+            <td>Gesloten</td>
+            <td>14h00 -16h00</td>
+          </tr>
+          <tr>
+            <th>Donderdag</th>
+            <td rowspan="2">10h00 - 12h00</td>
+            <td rowspan="2">15h00 - 17h00</td>
+          </tr>
+          <tr>
+            <th>Vrijdag</th>
+          </tr>
+          <tr>
+            <th>Zaterdag</th>
+            <td rowspan="2" colspan="2">Gesloten</td>
+          </tr>
+          <tr>
+            <th>Zondag</th>
+          </tr>
+        </tbody>
+      </table>
 
       <h1>Maak een afspraak</h1>
       <p>
         Vul volgend formulier in om een afspraak te maken (Naam - email -
         telefoon zijn verplicht)
       </p>
+      <form action="afspraak.php" method="post">
+        <p>
+          <label for="naam">Naam &amp; voornaam</label>
+          <input type="text" name="naam" placeholder="Naam en voornaam" required>
+        </p>
+        <p>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" placeholder="E-mailadres" required>
+        </p>
+        <p>
+          <label for="tel">Telefoon</label>
+          <input type="tel" name="tel" placeholder="Telefoon" required>
+        </p>
+        <p>
+          <label for="date">Voorkeur bezoek datum</label>
+          <input type="date" name="date">
+        </p>
+        <p>
+          <label for="uur">Voorkeur bezoek uur</label>
+          <select name="uur">
+            <option value="1011">Tussen 10 en 11 uur</option>
+            <option value="1112">Tussen 11 en 12 uur</option>
+            <option value="1213">Tussen 12 en 13 uur</option>
+            <option value="1314">Tussen 13 en 14 uur</option>
+            <option value="1415">Tussen 14 en 15 uur</option>
+            <option value="1516">Tussen 15 en 16 uur</option>
+            <option value="1617">Tussen 16 en 17 uur</option>
+            <option value="1718">Tussen 17 en 18 uur</option>
+            <option value="1819" selected>Tussen 18 en 19 uur</option>
+          </select>
+        </p>
+        <p>
+          <label for="woning">Herschilderen</label>
+          <input type="radio" name="woning">
+          <label for="woning">Nieuwe woning</label>
+          <input type="radio" name="woning">
+        </p>
+        <p>
+          <label for="extra-info">Extra informatie:</label>
+          <textarea name="extra-info"></textarea>
+        </p>
+        <input type="submit" value="verzend">
+      </form>
       
     </main>
 

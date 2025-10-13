@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOL.COM Registratie</title>
@@ -17,7 +18,94 @@
     <hr>
     <main>        
         <h2>Accountgegevens</h2>
-
+        <form action="mailto:veyeho1211@bllibl.com?subject=Bol.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <div>
+                    <label for="aanhef">Aanhef <sup>*</sup></label>
+                    <input type="radio" name="aanhef" checked required>Mevrouw
+                    <input type="radio" name="aanhef">De heer
+                </div>
+                <div>
+                    <label for="voornaam">Voornaam <sup>*</sup></label>
+                    <input type="text" name="voornaam" required>
+                    <label for="achternaam">Achternaam <sup>*</sup></label>
+                    <input type="text" name="achternaam" required>
+                </div>
+                <div>
+                    <label for="bedrijfsnaam"> Bedrijfsnaam</label>
+                    <input type="text" name="bedrijfsnaam">
+                </div>
+                <div>
+                    <label for="postcode_gemeente">Postcode en Gemeente <sup>*</sup></label>
+                    <input type="text" naam="postcode_gemeente" required>
+                </div>
+                <div>
+                    <label for="straat">Straatnaam <sup>*</sup></label>
+                    <input type="text" naam="straat" required>
+                    <label for="huisnummer">Huisnummer en bus <sup>*</sup></label>
+                    <input type="text" naam="huisnummer" required>
+                </div>
+                <div>
+                    <label for="land">Land <sup>*</sup></label>
+                    <select name="lanf" required>
+                        <option value="belgie" selected="selected">Belgiё</option>
+                        <option value="ned">Nederland</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="extraAdres">Extra adresregel  (optioneel)</label>
+                    <input type="text" name="extraAdres">
+                </div>
+                <div>
+                    <label for="geboort">Geboortedatum (optioneel)</label>
+                    <input type="date" name="geboort">
+                </div>
+                <div>
+                    <label for="tel">Telefoonnummer <sup>*</sup></label>
+                    <input type="tel" name="tel" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Imloggegevens</legend>
+                <div>
+                    <label for="email">E-mailadres <sup>*</sup></label>
+                    <input type="email" name="email" required placeholder="naam@provider.com">
+                </div>
+                <div>
+                    <label for="password">Wachtwoord <sup>*</sup></label>
+                    <input type="password" name="password" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Blijf op de hoogte</legend>
+                <table>
+                    <thead>
+                        <th>Nieuwsbrief</th>
+                        <th>Blijf per e-mail op de hoogte van:</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="infoAankop" checked>Informatie rondom je aankop
+                            </td>
+                            <td>
+                                Reviewverzoeken, artikelsuggesties en informatie over onze artikelen en -diensten op basis van je eerdere aankopen.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="aanbevelingen" checked>Persoonlijke aanbevelingen en acties
+                            </td>
+                            <td>
+                                Persoonlijke aanbevelingen en informatie op basis van je aankopen, -bezoekgeschiedenis en algemene (win)acties.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <input type="submit" value="Verzenden" id="send">
+        </form>
     </main>
 </body>
 
