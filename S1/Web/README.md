@@ -2,7 +2,6 @@
 * [Oefening 1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les1/ex/oefening01/index.html)
 * [Oefening 2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les1/ex/oefening02/index.html) 
 
-
 [Exersice 2](https://github.com/Web-Development-I/02EX-HTMLBasisDeel2):
 * Oefening 2
     * [opdracht 1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les2/ex/oefening02-lists-hyperlinks/opdracht01.html)
@@ -15,3 +14,21 @@
 * [Oefening 5](https://n0merc1-nhya.github.io/HoGent/S1/Web/les2/ex/oefening05-afbeeldingen-wolven/index.html)
 * [Oefening 6](https://n0merc1-nhya.github.io/HoGent/S1/Web/les2/ex/oefening06-vanderBeken/index.html)
 * [Oefening 7](https://n0merc1-nhya.github.io/HoGent/S1/Web/les2/ex/oefening07-agro-en-bio/index.html)
+
+[Exersice 3](https://github.com/Web-Development-I/03EX-HTMLTabellenFormulieren):
+* Oefeningen Tabellen
+    * [oefening 1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/01-tabellen/oefening1/index.html)
+    * [oefening 2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/01-tabellen/oefening2/index.html)
+    * [oefening 3](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/01-tabellen/oefening3/index.html)
+    * [oefening 4](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/01-tabellen/oefening4/index.html)
+
+* Oefeningen Formulieren
+    * [oefening 1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/oefeningen/oefening01.html)
+    * [oefening 2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/oefeningen/oefening02.html)
+    * [oefening 3](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/oefeningen/oefening03.html)
+    * [oefening 4](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/oefeningen/oefening04.html)
+    * [oefening 5](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/oefeningen/oefening05.html)
+    * [oefening 6](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/oefeningen/oefening06.html)
+    * [oefening 7](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/BolDotCom/index.html)
+
+* [Oefeningen Van der Beken](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/03-VanderBeken/contact.html)
