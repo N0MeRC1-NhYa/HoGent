@@ -1,0 +1,67 @@
+body {
+  background-color: lightgray;
+  font-family: Courier, monospace;
+}
+
+/* CSS combinators */
+/*******************/
+/* Bij deze oefening mag je geen class selectors gebruiken  */
+
+/* alle paragrafen van de articles doorstrepen*/
+
+article>p{
+  text-decoration-line: line-through;
+}
+
+
+/* alle links van de aside niet onderstreept en in het wit */
+
+aside a{
+  color:white;
+  text-decoration-line: none;
+}
+
+
+
+/* alle links die rechtstreeks afstammen van een article cursief en rood weergeven */
+
+article>a{
+  color:red;
+  font-style: italic;
+}
+
+
+
+/* De bullets bij de geneste lijst moeten verwijderd worden */
+
+li li{
+  list-style-type: none;
+}
+
+
+/* Alle paragrafen in een article die onmiddellijk volgen op een h2 
+moeten vet worden en niet doorstreept.
+*/
+
+article>h2+p{
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+
+
+/*  Geef de lijst in de aside een lightblue achtergrondkleur
+en wijzig de zwarte bolletjes in zwarte vierkantsje.*/
+
+aside li{
+  background-color: lightblue;
+  list-style-type: square;
+}
+
+
+
+/* Alle links die rechtstreeks afstammen van een li achtergrond in het blauw*/
+
+li>a{
+  background-color: blue;
+}

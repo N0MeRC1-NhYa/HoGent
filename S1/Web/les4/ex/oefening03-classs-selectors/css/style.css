@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+    font-family: Courier, monospace;
+}
+
+/* Class selectors */
+/* In deze oefening maak je enkel gebruik
+van class selectors (het is hier dus niet de bedoeling
+om de descendant combinator of pseudo-classes/elements
+te gebruiken. Deze komen aan bod in de volgende oefening */
+
+/* de content van de h2 in het eerste artikel en de derde li 
+van elke keuzelijst worden in het rood weergegeven. 
+Definieer een class rood en pas deze toe op de juiste HTML-elementen.*/
+.paint_red{
+    color:red;
+}
+
+/* De derde li in de geneste keuzelijst moet vet worden weergegeven.
+Definieer een class vet en pas deze toe op het juiste HTML-element */
+.bold{
+    font-weight: bold;
+}
+
+
+
+/* De eerste letter van de eerste paragraaf geef je
+een lettergrootte van 2 em. Pas indien nodig de HTML aan.*/
+
+.first_letter{
+    font-size: 2em;
+}
+
+
+/* De laatste paragraaf van de aside in bold en tekstkleur #128956.
+Definieer een class groen en pas deze toe op het juiste HTML-element.*/
+
+.green{
+    color: #128956;
+}

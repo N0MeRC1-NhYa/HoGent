@@ -1,0 +1,15 @@
+body {
+  font-family: monospace;
+  font-size: 1.4em;
+}
+
+/*Table*/
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 3px 10px;
+}
