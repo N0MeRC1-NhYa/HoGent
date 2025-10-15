@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+}
+h1, h2{
+    text-transform: uppercase;
+    color:darkcyan
+}
+ul{
+    list-style: none;;
+}
+ul>li:nth-child(2n){
+    color:grey;
+}
+
+ul>li:nth-child(2n+1){
+    color:#f1f1f1;
+}
+
+img + figcaption{
+    color:steelblue;
+}
+figcaption:has( + img){
+    margin-bottom:0.5em;
+}

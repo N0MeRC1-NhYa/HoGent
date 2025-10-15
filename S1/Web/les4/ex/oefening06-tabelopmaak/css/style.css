@@ -70,7 +70,7 @@ thead>tr>*:first-child{
 tfoot td{
   text-align: end;
 }
-tfoot tr:last-of-type{
+tfoot tr:last-of-type>*{
   color:#395870;
   font-weight: bold;
   background-color: #f0f0f2;

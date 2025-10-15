@@ -32,3 +32,15 @@
     * [oefening 7](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/02-formulieren/BolDotCom/index.html)
 
 * [Oefeningen Van der Beken](https://n0merc1-nhya.github.io/HoGent/S1/Web/les3/ex/03-VanderBeken/contact.html)
+
+[Exersice 4](https://github.com/Web-Development-I/04EX-CSSBasisDeel1):
+* Oefeningen CSS
+    * [oefening Type Selector](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening01-type-selectors/index.html)
+    * [oefening Background](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening02-backgrounds-id-selectors/index.html)
+    * [oefening Class Selector](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening03-classs-selectors/index.html)
+    * [oefening Descendant Combination](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening04-descendant-combinator_pseudo-classes_pseudo-elements/index.html)
+    * [oefening Combinators Combination](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening05-combinators-descendant-child-sibling/index.html)
+    * [oefening Tabel1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening06-tabelopmaak/index.html)
+    * [oefening Tabel2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening07-tabelopmaak/index.html)
+    * [oefening Lekkerrrrrr](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening08-Lekkerrrrr/index.html)
+
