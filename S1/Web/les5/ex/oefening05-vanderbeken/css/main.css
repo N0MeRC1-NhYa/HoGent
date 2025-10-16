@@ -1,0 +1,98 @@
+/* Algemeen */
+/* ******** */
+
+body {
+
+  color: #111;
+}
+
+/* Stel de regelhoogte voor de paragrafen en de lijsten in op 1.5.
+Zo krijgen we een beetje meer ruimte tussen de regels.*/
+
+
+
+
+
+/* Stel de kleuren in voor de paginablokken: nav en footer
+    nav
+      achtergrondkleur: #393939
+    footer 
+      achtergrondkleur: #ed1c24
+      tekstkleur: wit
+      */
+
+
+
+
+
+
+
+
+/* algemene opmaak voor de hyperlinks:
+een rode tekstkleur en geen onderstreping */
+
+
+
+
+/* Als er gehoverd wordt over een link 
+dan moet die onderstreept worden */
+
+
+
+
+/* Navigatiebalk*/
+/* **************/
+
+/* Voor het nav-element:
+   - stel je een groter lettertype in nl. 1.2em
+   - en verwijder je de bullets bij de unordered list
+   - alle hyperlinks in de navigatiebalk zijn wit
+   - met uitzondering van de current link (degene
+   met class current) deze is rood en niet onderstreept.
+   */
+
+
+
+
+
+
+
+/* tabellen */
+/************/
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #424242;
+}
+
+/* De eerste tabelrij krijgt:
+  - achtergrondkleur: #424242
+  - tekstkleur: white
+  */
+
+
+
+
+
+  /* De tekst is in alle cellen gecentreerd */
+
+
+
+
+/* formulier */
+/*************/
+/* Voor de submit-knop stel je een groter 
+lettertype 1.2em in en dezelfde kleuren
+als bij de eerste tabel-rij:
+  - achtergrondkleur: #424242
+  - tekstkleur: white 
+*/
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  color: #2a2a2a;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: lightcyan;
+  color:darkblue;
+  
+}
+
+table, td, th {
+  border: 1px solid #a4a4a4;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+
