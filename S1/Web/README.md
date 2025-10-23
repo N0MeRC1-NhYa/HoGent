@@ -44,3 +44,11 @@
     * [oefening Tabel2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening07-tabelopmaak/index.html)
     * [oefening Lekkerrrrrr](https://n0merc1-nhya.github.io/HoGent/S1/Web/les4/ex/oefening08-Lekkerrrrr/index.html)
 
+[Exersice 5](https://github.com/Web-Development-I/05EX-CSSBasisDeel2):
+* [Oefening 1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening01-cascade-inheritance/index.html)
+* [Oefening 2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening02-cascade-inheritance/index.html)
+* [Oefening 3](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening03-table/index.html)
+* [Oefening 4](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening04-kleuren/index.html)
+* [Oefening 5](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening05-vanderbeken/index.html)
+* [Oefening 6](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening06-likwiepedia/index.html)
+

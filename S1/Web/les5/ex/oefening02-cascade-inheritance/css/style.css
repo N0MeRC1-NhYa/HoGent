@@ -25,9 +25,9 @@ Vraag 2: (Multiple choice)
 *******
   Beschouw de li-elementen in het nav-element. Hoe krijgen deze elementen hun waarde
   voor de CSS-eigenschap list-style-type?
-    1. via de cascade
-    2. via inheritance
-    3. ze krijgen hun initial value
+    1. via de cascade 
+    2. via inheritance *
+    3. ze krijgen hun initial value *
   Tip Maak gebruik van de Developer Tools
 
 
@@ -35,8 +35,8 @@ Vraag 3: (Multiple choice)
 *******
   Beschouw het ul-element in het nav-element. Hoe verkrijgt dit element zijn waarde
   voor de CSS-eigenschap list-style-type?
-    1. via de cascade
-    2. via inheritance
+    1. via de cascade *
+    2. via inheritance *
     3. het krijgt zijn initial value
   Tip Maak gebruik van de Developer Tools
 
@@ -80,5 +80,7 @@ nav a{
     color: blue;
 }
 
-
-
+/* li color:yellow 
+    ul li color green
+    ul li li color blue
+    .red color red*/

@@ -1,13 +1,18 @@
 /* Algemeen */
 /* ******** */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 body {
-
   color: #111;
+  margin:0;
 }
 
 /* Stel de regelhoogte voor de paragrafen en de lijsten in op 1.5.
 Zo krijgen we een beetje meer ruimte tussen de regels.*/
+p, li{
+  line-height:1.5rem;
+}
 
 
 
@@ -21,7 +26,13 @@ Zo krijgen we een beetje meer ruimte tussen de regels.*/
       tekstkleur: wit
       */
 
-
+nav{
+  background-color: #393939;
+}
+footer{
+  background-color: #ed1c24;
+  color: white;
+}
 
 
 
@@ -31,13 +42,19 @@ Zo krijgen we een beetje meer ruimte tussen de regels.*/
 /* algemene opmaak voor de hyperlinks:
 een rode tekstkleur en geen onderstreping */
 
+a{
+  text-decoration: none;
+  color: red;
+}
 
 
 
 /* Als er gehoverd wordt over een link 
 dan moet die onderstreept worden */
 
-
+a:hover{
+  text-decoration: underline;
+}
 
 
 /* Navigatiebalk*/
@@ -50,7 +67,20 @@ dan moet die onderstreept worden */
    - met uitzondering van de current link (degene
    met class current) deze is rood en niet onderstreept.
    */
+nav{
+  font-size:1.2em;
+}
 
+nav ul{
+  list-style: none;
+}
+
+nav a{
+  color:white;
+}
+a.current{
+  color:red;
+}
 
 
 
@@ -72,12 +102,18 @@ td {
   - tekstkleur: white
   */
 
+  tr:first-of-type{
+    background-color: #424242;
+    color: white;
+  }
 
 
 
 
   /* De tekst is in alle cellen gecentreerd */
-
+td{
+  text-align: center;
+}
 
 
 
@@ -89,6 +125,11 @@ als bij de eerste tabel-rij:
   - achtergrondkleur: #424242
   - tekstkleur: white 
 */
+input[type="submit"]{
+  font-size:1.2em;
+  background-color: #424242;
+  color:white;
+}
 
 
 
