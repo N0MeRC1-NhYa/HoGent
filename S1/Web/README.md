@@ -52,3 +52,15 @@
 * [Oefening 5](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening05-vanderbeken/index.html)
 * [Oefening 6](https://n0merc1-nhya.github.io/HoGent/S1/Web/les5/ex/oefening06-likwiepedia/index.html)
 
+[Exersice 6](https://github.com/Web-Development-I/06EX-LayOutBoxmodel)
+* Oefeningen Boxmodels
+    * [oefening 1](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht01/index.html)
+    * [oefening 2](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht02/index.html)
+    * [oefening 3](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht03/index.html)
+    * [oefening 4](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht04/index.html)
+    * [oefening 5](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht05/index.html)
+    * [oefening 6](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht06/index.html)
+    * [oefening 7](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht07/index.html)
+    * [oefening 8](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/Oefening01-Boxmodel/opdracht08/index.html)
+
+* [Card with badges](https://n0merc1-nhya.github.io/HoGent/S1/Web/les6/ex/oefening02-card-with-badges/index.html)

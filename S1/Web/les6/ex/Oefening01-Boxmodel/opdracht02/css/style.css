@@ -1,0 +1,13 @@
+#box1{
+    border: 5px solid orange;
+    max-width: 640px;     
+}
+
+#box2{
+    border: 5px solid blue;
+    /* height: 20px;
+    overflow: hidden; */
+}
+div{
+    padding: 20px;
+}

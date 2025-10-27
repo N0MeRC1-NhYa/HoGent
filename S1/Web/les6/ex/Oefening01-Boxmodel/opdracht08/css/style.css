@@ -1,0 +1,17 @@
+span {
+    font-weight: bold;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
+
+span:first-of-type{
+  visibility: collapse;
+  /*display: block; /* has width and height as set, but the upcoming text starts from a new line*/
+  width: 100px; /* has no effect due to */
+  height: 50px;/* span is an inline element with no params height and width */
+}
+
+span:last-of-type{
+  display: none;
+  /*display:block; /*has a width of a whole line and the height of a text-line*/
+}

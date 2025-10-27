@@ -1,0 +1,18 @@
+p {
+  padding: 15px;
+}
+
+#box1 {
+  width: 640px;
+  height: 100px;
+  border: 6px solid red;
+}
+
+#box2 {
+  box-sizing: border-box;
+
+  width: calc(640px + 12px + 30px);
+  height: calc(100px + 12px + 30px);
+
+  border: 6px solid blue;
+}

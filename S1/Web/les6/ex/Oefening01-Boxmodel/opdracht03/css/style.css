@@ -1,0 +1,12 @@
+#box1 {
+    border: 5px solid orange;
+    margin-bottom: 20px;
+}
+
+#box2 {
+    border-top:15px; /*Geen effect omdat margin-bottom van box1 groter is*/
+    border: 5px solid blue;
+}
+body{
+    margin: 0;
+}
